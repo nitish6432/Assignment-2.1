@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class BooleanStat {
+
+	public static void main(String[] args) {
+		Scanner s = new Scanner(System.in);
+		System.out.println("enter 1st String");
+		String s1 = s.next();
+		System.out.println("enter 2nd String");
+		String s2 = s.next();
+
+		if (s1 == s2) {
+			System.out.println("same");
+		} else {
+			System.out.println("not same");
+		}
+	}
+}
